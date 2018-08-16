@@ -49,6 +49,7 @@ class WsseAuthHeader extends SoapHeader {
     $request = array('AccountID' => "2242254");
     $results = $client->__soapCall('GetAccount',$request);
 
-    dd($results);
+    var_dump($results);
+    exit;
 
 ?>
